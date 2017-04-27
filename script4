@@ -1,0 +1,14 @@
+#!/bin/bash
+ 	
+ 	read -p "2+2= " numa
+ 	 	if ((numa == 4)); then
+ 		echo "Correct, bye"
+                else
+                echo "Not correct, try again"
+        read -p "2+0= " numb
+                if ((numb == 2)); then
+ 		echo "Correct, bye"
+                else
+                echo "Not correct, bye. By the way...You are idiot!"
+ 	        fi
+                fi

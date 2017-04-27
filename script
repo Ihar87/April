@@ -1,0 +1,17 @@
+#!/bin/bash
+#first script
+read -p "Please type a first number : " num
+read -p "Please type a second number : " numb
+   if [ $num -gt $numb ]
+      then
+      echo $num is bigger then $numb | mail  -s 'report' deendan2@tut.by | 2 > error
+   fi     
+   if [ $num -eq $numb ]
+      then
+      echo $num is equal $numb
+   fi
+   if [ $num -lt $numb ]
+      then
+      echo $numb is bigger then $num
+      echo $?
+   fi
