@@ -290,30 +290,4 @@ Software development
 * Make: (make).                 The GNU make utility.
 * gprof: (gprof).               Profiling your program's execution
 
-Software libraries
-* libcdio: (libcdio).           GNU Compact Disc Input, Output, and Control 
-                                  Library.
-* libidn: (libidn).             Internationalized string processing library.
 
-System administration
-* Which: (which).               Show full path of commands.
-* parted: (parted).             GNU partitioning software
-
-Texinfo documentation system
-* Info: (info).                 Documentation browsing system.
-* Pinfo: (pinfo).               curses based lynx-style info browser.
-
-Miscellaneous
-* bash: (bash).                 The Bourne Again Shell.
-* bc: (bc).                     The GNU calculator language.
-* dc: (dc).                     The GNU RPN calculator.
-* time: (time).                 GNU time Utility
-
-Text creation and manipulation
-* Diffutils: (diffutils).       Comparing and merging files.
-* Gawk: (gawk).                 A text scanning and processing language.
-* grep: (grep).                 Print lines matching a pattern.
-* sed: (sed).                   Stream EDitor.  
-
-Utilities
-* Enscript: (enscript).         GNU Enscript
